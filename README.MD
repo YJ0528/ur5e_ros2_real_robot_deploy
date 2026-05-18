@@ -129,7 +129,7 @@ Three dummy poses with preset pose `pose_00`, `pose_01`, `pose_02` are available
 
     **Demo:**
 
-    <video controls src="media/moveit_target_pose_control.mp4" title="Title"></video>
+    [Watch video](https://github.com/YJ0528/ur5e_ros2_real_robot_deploy/blob/master/media/moveit_target_pose_control.mp4)
 
 
 #### realtime_pose_tracking_node
@@ -171,7 +171,7 @@ The tracking is done using PID control; further tuning is required to achieve re
 
     **Demo:**
 
-    <video controls src="media/target_pose_tracking_demo.mp4" title="Title"></video>
+    [Watch video](https://github.com/YJ0528/ur5e_ros2_real_robot_deploy/blob/master/media/target_pose_tracking_demo.mp4)
 
 #### Additional Notes
 
@@ -446,7 +446,7 @@ Make sure the following is set:
 | `/target_pose` | `bool` | `online_target_pose` \<pub> <br> `realtime_pose_tracking_node` \<sub>| Contain pose message to track by the robot | 
 | `/start` | `bool` | `moveit_target_pose_control` \<sub> | Signal to resume the robot from pause |
 | `/pause` | `bool` | `moveit_target_pose_control` \<sub> | Signal to pause the robot and MoveIt | 
-| `/stop` | `moveit_target_pose_control` \<sub> | Signal to stop the robot and exit the service  | 
+| `/stop` | `bool` | `moveit_target_pose_control` \<sub> | Signal to stop the robot and exit the service |
 | `trajectory_execution_event` | `String` | `moveit_target_pose_control` \<pub> | To stop the UR5e robot |  
 
 
