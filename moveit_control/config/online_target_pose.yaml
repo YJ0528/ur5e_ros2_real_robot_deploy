@@ -1,0 +1,14 @@
+online_target_pose:
+  ros__parameters:
+    use_dummy_waypoint: true
+    planning_group: "ur5e_arm"  # your moveit move_group
+    end_effector_link: "tool0"
+    target_pose: "motion_tracking_pose" # pose_to_track; set to "motion_tracking_pose" to trace the relative motion of "pose_01"
+    _orbit_radius: 0.1
+    _orbit_speed: 0.2
+    dummy_x: 0.400000
+    dummy_y: 0.110000
+    dummy_z: 0.240000
+    dummy_roll: 3.142
+    dummy_pitch: 0.0
+    dummy_yaw: 1.5708
