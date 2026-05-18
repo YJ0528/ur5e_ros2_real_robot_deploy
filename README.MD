@@ -127,10 +127,7 @@ Three dummy poses with preset pose `pose_00`, `pose_01`, `pose_02` are available
         
         ros2 service call /go_to_pose_02 std_srvs/srv/Trigger
 
-    **Demo:**
-
-    [Watch video](https://github.com/YJ0528/ur5e_ros2_real_robot_deploy/blob/master/media/moveit_target_pose_control.mp4)
-
+	Watch video: [moveit_target_pose_control.mp4](https://drive.google.com/file/d/1yuX_eNz4BOV9o3eFzmlRvPEuQVXk8LWY/view?usp=sharing)
 
 #### realtime_pose_tracking_node
 
@@ -167,11 +164,9 @@ The tracking is done using PID control; further tuning is required to achieve re
         
         ros2 param set /online_target_pose target_pose "pose_01"
 
-        ros2 param set /online_target_pose target_pose "pose_02"
+        ros2 param set /online_target_pose target_pose "pose_02
 
-    **Demo:**
-
-    [Watch video](https://github.com/YJ0528/ur5e_ros2_real_robot_deploy/blob/master/media/target_pose_tracking_demo.mp4)
+    Watch video: [target_pose_tracking_demo.mp4](https://drive.google.com/file/d/1rRxkjDuF2KTgoPr9KcjpE_QdbPpTxLNG/view?usp=sharing)
 
 #### Additional Notes
 
