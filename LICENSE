@@ -3,15 +3,6 @@ BSD 3-Clause License
 Copyright (c) 2026, yj0528
 All rights reserved.
 
-This package is a derivative work based on:
-  - Universal_Robots_ROS2_Driver, Universal Robots ROS2 Driver
-    Copyright (c) Universal Robots A/S and contributors
-    https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver
-
-  - MoveIt2
-    Copyright (c) PickNik Inc. and contributors
-    https://github.com/moveit/moveit2
-    
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
