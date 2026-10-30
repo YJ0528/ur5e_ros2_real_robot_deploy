@@ -430,7 +430,7 @@ Make sure the following is set:
 | `ur5e_robot_bringup.launch.py`     |  local   | `ur_type` <br> `robot_ip` <br> `use_fake_hardware` <br> `launch_rviz` <br> `description_package` <br> `description_file` <br> `moveit_config_package` <br> `launch_moveit_rviz` <br> `initial_joint_controller` <br> `kinematics_params_file` | includes: <br> `ur_control.launch.py` <br> `move_group.launch.py` <br> `moveit_rviz.launch.py` 
 | `ur_control.launch.py`     | binary, installed `ur_robot_driver`     | N/A     | included in `ur5e_robot_bringup.launch.py` |
 | `pose_tacking.launch.py`     | local     | N/A     | To set up the robot to standby for pose tracking <br> wait for pose message from `/target_pose` |
-| `displau.launch.py`     | local     | N/A     | To read the robot description file from `ur5e.urdf` |
+| `display.launch.py`     | local     | N/A     | To read the robot description file from `ur5e.urdf` |
 
 
 ### Topics 
